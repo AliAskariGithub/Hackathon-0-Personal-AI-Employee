@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_workflow.py)",
+      "Bash(python agent.py --once)",
+      "Bash(uv:*)",
+      "Bash(README.md:*)",
+      "Bash(CHANGELOG.md:*)",
+      "Bash(INTEGRATION_SUMMARY.md:*)",
+      "Bash(PROJECT_STATUS.md:*)",
+      "Bash(cat:*)",
+      "Bash(DOCS_AND_HISTORY_SUMMARY.md:*)",
+      "Bash(FIXES_SUMMARY.md:*)"
+    ]
+  }
+}

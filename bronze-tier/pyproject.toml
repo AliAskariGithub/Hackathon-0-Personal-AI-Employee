@@ -1,0 +1,16 @@
+[project]
+name = "agent-factory-bronze"
+version = "1.0.0"
+description = "AI-powered agent system for automated file triage and task management"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "watchdog>=4.0.0",
+    "groq>=0.11.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "colorama>=0.4.6",
+]
+
+[tool.uv]
+dev-dependencies = []
